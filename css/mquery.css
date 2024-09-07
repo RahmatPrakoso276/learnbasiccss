@@ -1,0 +1,21 @@
+li, ul{
+  display: inline;
+  margin: 0 ;
+  padding: 0;
+}
+
+section h1{
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  h1{
+    color: aqua;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h1{
+    color: bisque;
+  }
+}

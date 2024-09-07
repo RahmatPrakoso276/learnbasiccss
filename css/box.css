@@ -1,0 +1,39 @@
+#border{
+  border: 5px solid red;
+}
+
+#border2{
+  width: 100px;
+  border: 5px solid red;
+}
+
+#pb{
+  border: 5px solid red;
+  padding: 10px;
+}
+
+div{
+  border: 2px solid black;
+}
+
+#flex1, #flex2, #flex3{
+  border: 2px solid black;
+  display: inline-flex;
+  margin: 5px;
+}
+
+
+
+#pbm1{
+  width: 50px;
+  border: 5px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+#pbm2{
+  width: 50px;
+  border: 5px solid red;
+  padding: 10px;
+  margin: 10px;
+}

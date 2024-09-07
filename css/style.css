@@ -1,0 +1,42 @@
+/* SELECTOR */
+
+/* element */
+h1:nth-of-type(2) {
+  color: red;
+}
+
+/* CLass */
+.textp {
+  color: rgb(78, 120, 15);
+}
+
+/* ID */
+#paragraf {
+  color: blueviolet;
+}
+
+button {
+  color: white;
+  background-color: #ff4c4c;
+  border-color: #ff4c4c;
+  border-radius: 10px;
+}
+
+/* Pseudo Class */
+button:hover {
+  cursor: pointer;
+}
+
+/* active */
+.activebtn:active {
+  background: #fc6c6c;
+}
+
+section:nth-of-type(2n) {
+  background-color: rgb(187, 171, 171);
+}
+
+/* descendant */
+.descendant .p{
+  color: rgb(116, 104, 96);
+}
